@@ -1,0 +1,252 @@
+/* ================================================ Top.js ================================================ */
+.full-page {
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.userinfo {
+    margin-bottom: 10px;
+}
+
+.kozabango-text {
+    font-size: 3rem;
+    color: #333;
+    text-align: left;
+    padding-left: 10%;
+    margin-top: 5%;
+}
+
+.zandaka-title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #000;
+    text-align: right;
+    padding-right: 10%;
+    margin-top: 5%;
+}
+
+.zandaka_area {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: rgb(255, 255, 255);
+    height: 8vh;
+    margin-bottom: 10%;
+}
+
+.zandaka-text {
+    font-size: 5.5vw;
+    position: absolute;
+    right: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+.image {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.icon-username-text {
+    font-size: 5rem;
+    color: #000;
+    padding-top: 100px;
+
+}
+
+.button-text {
+    font-size: 1.63em;
+    color: #000;
+}
+
+
+/* ================================================ SelectRecipient.js ================================================ */
+.selection-title {
+    font-size: 5rem;
+    padding-top: 5%;
+}
+
+.people-list-area {
+    padding-top: 10%;
+}
+
+.select-image {
+    width: 100px;
+    height: 100px;
+}
+
+.select-usertext {
+    display: inline-block;
+    font-size: 30px;
+    padding-top: 10%;
+    padding-left: 0%;
+}
+
+.select-people-button {
+    width: 100%;
+    border-bottom: solid 0.05px #000000;
+    border-top: solid 0.05px #000000;
+    border-left: 0px;
+    border-right: 0px;
+    display: flex
+}
+
+/* ================================================ Transfer.js ================================================ */
+.address-title-position {
+    padding-top: 3%;
+}
+
+.transfer-title-position {
+    padding-left: 10%;
+}
+
+.transfer-title-font {
+    text-align: left;
+    font-size: 3.5rem;
+    padding-top: 10%;
+}
+
+.transfer-zandaka-text {
+    position: absolute;
+    right: 0;
+    margin-right: 10%;
+    font-size: 3.5rem;
+}
+
+.transfer-kingaku-title-position {
+    padding-top: 3%;
+}
+
+.transfer-kingaku-font {
+    color: white;
+    font-size: 3.5rem;
+}
+
+.err-msg-passre {
+    position: absolute;
+    color: red;
+    top: 60%;
+    left: 10%;
+}
+
+
+/* ================================================ Success.js ================================================ */
+.approval-image {
+    margin-top: 10%;
+    width: 400px;
+    height: 400px;
+}
+
+.approval-text {
+    padding-top: 10%;
+    font-size: 3rem;
+}
+
+/* ================================================ GenerateLink.js ================================================ */
+.billing-title-text {
+    padding-top: 5%;
+    font-size: 3.5rem;
+}
+
+.billing-title-position {
+    padding-left: 10%;
+}
+
+.billing-title-font {
+    text-align: left;
+    font-size: 3.5rem;
+    padding-top: 10%;
+}
+
+.billing-kingaku-font {
+    color: white;
+    font-size: 3.5rem;
+}
+
+/* ================================================ CopyLink.js ================================================ */
+.link-title {
+    font-size: 3.5rem;
+    padding-top: 10%;
+}
+
+.link-position {
+    padding-top: 10%;
+}
+
+.link-button-position {
+    padding-top: 20%;
+}
+
+.link-font {
+    font-size: 2rem;
+}
+
+.copy-button-text {
+    color: white;
+    font-size: 3.5rem;
+}
+
+
+
+/* ================================================ History.js ================================================ */
+
+.history-month {
+    text-align: left;
+    padding-left: 2rem;
+    font-size: 1rem;
+    padding-top: 1rem;
+}
+
+.history-date {
+    text-align: left;
+    padding-left: 2rem;
+    font-size: 1rem;
+    padding-top: 1rem;
+}
+
+.history-kingaku {
+    text-align: left;
+    padding-left: 10rem;
+    font-size: 1.5rem;
+}
+
+.history-message {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.history-paid {
+    text-align: left;
+    padding-left: 10rem;
+    font-size: 1.5rem;
+}
+
+.detail-border {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.history-image {
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+/* ================================================ Payment.js ================================================ */
+.payment-info-text {
+    right: 0;
+    margin-right: 10%;
+    font-size: 25px;
+}

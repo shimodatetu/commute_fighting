@@ -1,0 +1,5 @@
+.full-page {
+    width: 100vw;
+    height: 100vh;
+    background: hsla(0, 0%, 90%, 0.75);
+}

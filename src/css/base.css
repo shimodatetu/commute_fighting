@@ -1,0 +1,15 @@
+* {
+    /* 空白消し */
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.App {
+    text-align: center;
+}
